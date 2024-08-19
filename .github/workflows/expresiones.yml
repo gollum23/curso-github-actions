@@ -6,11 +6,11 @@ on:
       edad:
         description: 'Edad'
         required: true
-        type: integer
+        type: number
       nombre:
         description: 'Tu nombre'
         required: true
-        type: String
+        type: string
         default: 'Gollum'
 jobs:
   mayor:
