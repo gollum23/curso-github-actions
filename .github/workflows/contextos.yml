@@ -1,0 +1,11 @@
+name: Aprendiento contextos
+run-name: ¡Aprendiendo sobre contextos!
+on: push
+env:
+  course: "GitHub Actions"
+  platform: "Platzi"
+jobs:
+  env-context
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Aprendiendo ${{ env.course }} on ${{ env.platform }}'
