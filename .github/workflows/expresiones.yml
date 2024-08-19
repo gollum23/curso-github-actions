@@ -1,6 +1,7 @@
 name: Expresiones
 run-name: Aprendiendo a usar expresiones
 on:
+  push:
   workflow_dispatch:
     inputs:
       edad:
