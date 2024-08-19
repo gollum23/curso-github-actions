@@ -1,4 +1,5 @@
-name: Expression
+name: Expresiones
+run-name: Aprendiendo a usar expresiones
 on:
   workflow_dispatch:
     inputs:
