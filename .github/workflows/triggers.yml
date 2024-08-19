@@ -9,7 +9,7 @@ on:
     paths:
       - '**.py'
 jobs:
-  Learning GA:
+  Learning-GA:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
