@@ -1,4 +1,4 @@
-name: triggers
+name: Triggers
 run-name: Aprendiendo triggers
 on:
   push:
