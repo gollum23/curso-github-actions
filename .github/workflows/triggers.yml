@@ -1,9 +1,9 @@
 name: Triggers
 run-name: Aprendiendo triggers
 on:
-  push:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #      - master
   #pull_request:
   #  types: [opened, synchronize, reopened]
   #  paths:
