@@ -8,13 +8,13 @@ on:
   #  types: [opened, synchronize, reopened]
   #  paths:
   #    - '**.py'
-    workflow_dispatch:
-      inputs:
-        name:
-          description: 'Your name'
-          required: true
-          type: string
-          default: Gollum
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Your name'
+        required: true
+        type: string
+        default: Gollum
 jobs:
   Learning-GA:
     runs-on: ubuntu-latest
