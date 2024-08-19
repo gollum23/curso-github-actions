@@ -2,12 +2,19 @@ name: Triggers
 run-name: Aprendiendo triggers
 on:
   push:
-    branches:
-      - master
-  pull_request:
-    types: [opened, synchronize, reopened]
-    paths:
-      - '**.py'
+  #  branches:
+  #    - master
+  #pull_request:
+  #  types: [opened, synchronize, reopened]
+  #  paths:
+  #    - '**.py'
+    workflow_dispatch:
+      inputs:
+        name:
+          description: 'Your name'
+          required: true
+          type: string
+          default: Gollum
 jobs:
   Learning-GA:
     runs-on: ubuntu-latest
