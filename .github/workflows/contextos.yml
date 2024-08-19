@@ -5,7 +5,7 @@ env:
   course: "GitHub Actions"
   platform: "Platzi"
 jobs:
-  env-context
+  env-context:
     runs-on: ubuntu-latest
     steps:
       - run: echo 'Aprendiendo ${{ env.course }} on ${{ env.platform }}'
