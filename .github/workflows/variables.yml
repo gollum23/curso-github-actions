@@ -1,5 +1,5 @@
-name: Aprendiento contextos
-run-name: ¡Aprendiendo sobre contextos!
+name: Aprendiento variables
+run-name: ¡Aprendiendo sobre variables!
 on: push
 env:
   course: "GitHub Actions"
