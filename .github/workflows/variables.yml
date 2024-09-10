@@ -1,0 +1,11 @@
+name: Aprendiento variables
+run-name: ¡Aprendiendo sobre variables!
+on: push
+env:
+  course: "GitHub Actions"
+  platform: "Platzi"
+jobs:
+  env-context:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Aprendiendo ${{ env.course }} on ${{ env.platform }}'
