@@ -9,7 +9,7 @@ jobs:
       - name: Setup environmen
         run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
       - name: Setup
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
       - name: run-script
